@@ -1,0 +1,4 @@
+Patient = (open_search_page -> select_search_area-> click_search -> open_appointment_page -> required_to_fillup_form -> submit_form -> Patient).
+System = ( search_doner -> display_doner_info -> save_appointment_details -> success_message -> show_booking -> System).
+||Patient_System_AppointmentSearch = (Patient || System).
+	

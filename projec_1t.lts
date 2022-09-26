@@ -1,0 +1,5 @@
+Admin = (open_login_page -> enter_username_password -> submit_login -> add_doner -> enter_info -> submit_info -> Admin).
+Blood_donation_system = (check_validity -> admin_view -> add_doner -> checkError -> display_success_message -> Blood_donation_system ).
+
+||Admin_Blood_donation_system  = (Admin ||Blood_donation_system )
+		/{submit_login/check_validity,submit_info/checkError}. 
